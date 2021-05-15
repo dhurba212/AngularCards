@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
-## Generate app-routing.module.ts
+## Generate app-routing.module.ts [create app routing module](https://angular.io/tutorial/toh-pt5)
 * If angular project doesn't create app-routing.module.ts when a new project is created run below command on src/app folder 
 * Run command ng generate module app-routing --flat --module=app 
 * --flat puts the file in src/app instead of its own folder.
