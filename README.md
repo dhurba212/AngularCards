@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
+## Generate app-routing.module.ts
+* If angular project doesn't create app-routing.module.ts when a new project is created run below command on src/app folder 
+* Run command ng generate module app-routing --flat --module=app 
+* --flat puts the file in src/app instead of its own folder.
+* --module=app tells the CLI to register it in the imports array of the AppModule.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
